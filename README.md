@@ -2,7 +2,7 @@ Capítulo IV - Desafio 02
 
 Teste de automação com Cypress para cadastro de um site de e-commerce.
 
-Requisitos:
+Requisitos
 registrar um novo usuário no site
 os dados do usuário devem ser diferentes para cada teste
 adicionar asserções aos testes
