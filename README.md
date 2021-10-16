@@ -16,12 +16,14 @@
 <li>Inicie um novo projeto Node.js:</li>
 </ul>
 
-npm init -y
-Instale o Cypress como dependência dev:
+<p>npm init -y</p>
 
-npm install cypress -D
-Execute o Cypress:
+<h4>Instale o Cypress como dependência dev:</h4>
+<table>
+<tr>npm install cypress -D</tr>
+</table>
 
+<h4>Execute o Cypress:</h4>
 npx cypress open
 
 Exclua arquivos padrão e adicione um esquema ao cypress.json:
