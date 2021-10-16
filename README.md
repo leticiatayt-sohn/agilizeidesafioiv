@@ -61,11 +61,11 @@
 <h4>Adicione comandos de scripts ao package.json:</h4>
 
    {
-   // ...
  <p> " scripts " : {</p>
      <p>" cy: open " : " npx cypress open " ,</p>
      <p>" cy: run " : " npx cypress run "</p>
    }
-   // ...
    }
+
+   <iframe src="https://giphy.com/embed/uxcBy0kSMPVrRkSTXR" width="480" height="228" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/uxcBy0kSMPVrRkSTXR">via GIPHY</a></p>
 
