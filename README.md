@@ -16,10 +16,13 @@
 
 <h3>Setup Cypress</h3>
 <h4>Inicie um novo projeto Node.js:</h4>
-<table style="width:100%">
-  <tr>
-    <th>npm init -y</th>
-  </tr>
+<p>npm init -y</p>
+  
+  <table>
+	<tr>
+		npm init -y
+	</tr>
+</table>
 
 <h4>Instale o Cypress como dependência dev:</h4>
 <p>npm install cypress -D</p>
