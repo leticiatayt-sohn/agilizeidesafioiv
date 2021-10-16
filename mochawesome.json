@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-10-16T18:27:32.274Z",
-    "end": "2021-10-16T18:27:46.706Z",
-    "duration": 14432,
+    "start": "2021-10-16T19:00:26.362Z",
+    "end": "2021-10-16T19:00:44.196Z",
+    "duration": 17834,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "44cf5cca-8fb0-496a-8ad1-f82b84c43e2c",
+      "uuid": "1f0d1e5a-0ec0-4531-9da0-19e9918f0182",
       "title": "",
       "fullFile": "cypress/integration/Cadastro.spec.js",
       "file": "cypress/integration/Cadastro.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "b248c185-e156-47ff-953d-a9b63fb93b11",
+          "uuid": "4db498bf-2fd1-43c0-85b8-c17cf83aeb24",
           "title": "Cadastro",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Quando eu informar o e-mail e clicar em criar sua conta, então deve-se preencher os dados e finalizar o cadastro",
               "fullTitle": "Cadastro Quando eu informar o e-mail e clicar em criar sua conta, então deve-se preencher os dados e finalizar o cadastro",
               "timedOut": null,
-              "duration": 12233,
+              "duration": 14208,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "const firstName = chance.first();\nconst lastName = chance.last();\nconst email = chance.email();\ncy.visit('http://automationpractice.com/index.php?controller=authentication&back=my-account');\ncy.get('input[name=email_create]').type(email);\ncy.get('#SubmitCreate > span').click();\ncy.get('input[value=2]').check();\ncy.get('input[name=customer_firstname]').type(firstName);\ncy.get('input[name=customer_lastname]').type(lastName);\ncy.get('input[name=passwd]').type('123456');\ncy.get('select#days').select(chance.natural({\n  min: 1,\n  max: 28\n}));\ncy.get('select#months').select(chance.month());\ncy.get('select#years').select(chance.year({\n  min: 1950,\n  max: 2000\n}));\ncy.get('input[name=newsletter]').check({\n  force: true\n});\ncy.get('input[name=optin]').check({\n  force: true\n});\ncy.get('input[name=company]').type(chance.company());\ncy.get('input[name=address1]').type(chance.address());\ncy.get('input[name=address2]').type('Apartamento');\ncy.get('input[name=city]').type(chance.city());\ncy.get('select#id_state').select(chance.natural({\n  min: 1,\n  max: 53\n}));\ncy.get('input[name=postcode]').type(chance.zip());\ncy.get('select#id_country').select('United States');\ncy.get('input[name=phone_mobile]').type(chance.phone());\ncy.get('input[name=alias]').type(chance.address());\ncy.get('select#id_state').select(chance.natural({\n  min: 1,\n  max: 53\n}));\ncy.get('#submitAccount > span').click();\ncy.url().should('contain', 'my-account');\ncy.contains('My personal information').click();\ncy.url().should('contain', 'identity');\ncy.get('#firstname').should('contain.value', firstName);\ncy.get('#lastname').should('contain.value', lastName);\ncy.get('#email').should('contain.value', email);",
               "err": {},
-              "uuid": "c70f96e0-3a13-4eef-a23e-118880285d55",
-              "parentUUID": "b248c185-e156-47ff-953d-a9b63fb93b11",
+              "uuid": "55242438-d6fe-433d-8936-e5dca55b481b",
+              "parentUUID": "4db498bf-2fd1-43c0-85b8-c17cf83aeb24",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "c70f96e0-3a13-4eef-a23e-118880285d55"
+            "55242438-d6fe-433d-8936-e5dca55b481b"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 12233,
+          "duration": 14208,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
