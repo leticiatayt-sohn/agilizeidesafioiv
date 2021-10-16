@@ -15,20 +15,26 @@
 </ul>
 
 <h3>Setup Cypress</h3>
-<h4>Inicie um novo projeto Node.js:</h4>
-<p>npm init -y</p>
-  
-  <table>
-	<tr>
+<h4>Inicie um novo projeto Node.js:</h4> 
+  <ul>
+	<il>
 		npm init -y
-	</tr>
-</table>
+	</il>
+</ul>
 
 <h4>Instale o Cypress como dependência dev:</h4>
-<p>npm install cypress -D</p>
+  <ul>
+	<il>
+		npm install cypress -D
+	</il>
+</ul>
 
 <h4>Execute o Cypress:</h4>
-<p>npx cypress open</p>
+  <ul>
+	<il>
+		npx cypress open
+	</il>
+</ul>
 
 <h4>Exclua arquivos padrão e adicione um esquema ao cypress.json:</h4>
 
@@ -37,7 +43,11 @@
 <p>}</p>
 
 <h4>Instale o Chance como dependência de desenvolvimento:<h4>
-<p>chance de instalação npm -D</p>
+  <ul>
+	<il>
+		chance de instalação npm -D
+	</il>
+</ul>
 
 <h4>Crie um novo arquivo register.spec.js de teste para testar o processo de registro.</h4>
 
