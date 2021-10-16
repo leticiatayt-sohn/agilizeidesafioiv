@@ -17,48 +17,51 @@
 <h3>Setup Cypress</h3>
 <h4>Inicie um novo projeto Node.js:</h4> 
   <ul>
-	<il>
+	<li>
 		npm init -y
-	</il>
+	</li>
 </ul>
 
 <h4>Instale o Cypress como dependência dev:</h4>
   <ul>
-	<il>
+	<li>
 		npm install cypress -D
-	</il>
+	</li>
 </ul>
 
 <h4>Execute o Cypress:</h4>
   <ul>
-	<il>
+	<li>
 		npx cypress open
-	</il>
+	</li>
 </ul>
+<hr>
 
 <h4>Exclua arquivos padrão e adicione um esquema ao cypress.json:</h4>
 
-<p>{</p>
+   {
    <p>" $ schema " : " https://on.cypress.io/cypress.schema.json "</p>
-<p>}</p>
+   }
+<hr>
 
 <h4>Instale o Chance como dependência de desenvolvimento:<h4>
   <ul>
-	<il>
+	<li>
 		chance de instalação npm -D
-	</il>
+	</li>
 </ul>
+<hr>
 
 <h4>Crie um novo arquivo register.spec.js de teste para testar o processo de registro.</h4>
 
 <h4>Adicione comandos de scripts ao package.json:</h4>
 
-<p>{</p>
-   <p>// ...</p>
+   {
+   // ...
  <p> " scripts " : {</p>
      <p>" cy: open " : " npx cypress open " ,</p>
      <p>" cy: run " : " npx cypress run "</p>
-  <p>}</p>
-  <p>// ...</p>
-<p>}</p>
+   }
+   // ...
+   }
 
