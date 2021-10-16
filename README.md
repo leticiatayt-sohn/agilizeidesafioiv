@@ -1,18 +1,18 @@
-Capítulo IV - Desafio 02
+<h1>Capítulo IV - Desafio 02</h1>
 
-Teste de automação com Cypress para cadastro de um site de e-commerce.
+<h4>Teste de automação com Cypress para cadastro de um site de e-commerce.</h4>
 
-Requisitos
-registrar um novo usuário no site
-os dados do usuário devem ser diferentes para cada teste
-adicionar asserções aos testes
-gerar relatórios usando mochawesome
-crie um novo repositório para o Github
-descrever o projeto em um arquivo README
-executar testes no Github Actions
-relatório de implantação em páginas do Github
-Setup Cypress
-Inicie um novo projeto Node.js:
+<h4>Requisitos:</h4>
+<p>registrar um novo usuário no site</p>
+<p>os dados do usuário devem ser diferentes para cada teste</p>
+<p>adicionar asserções aos testes</p>
+<p>gerar relatórios usando mochawesome</p>
+<p>crie um novo repositório para o Github</p>
+<p>descrever o projeto em um arquivo README</p>
+<p>executar testes no Github Actions</p>
+<p>relatório de implantação em páginas do Github</p>
+<p>Setup Cypress</p>
+<p>Inicie um novo projeto Node.js:</p>
 
 npm init -y
 Instale o Cypress como dependência dev:
