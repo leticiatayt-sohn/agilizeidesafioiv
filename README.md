@@ -3,16 +3,18 @@
 <h4>Teste de automação com Cypress para cadastro de um site de e-commerce.</h4>
 
 <h4>Requisitos:</h4>
-<p>registrar um novo usuário no site</p>
-<p>os dados do usuário devem ser diferentes para cada teste</p>
-<p>adicionar asserções aos testes</p>
-<p>gerar relatórios usando mochawesome</p>
-<p>crie um novo repositório para o Github</p>
-<p>descrever o projeto em um arquivo README</p>
-<p>executar testes no Github Actions</p>
-<p>relatório de implantação em páginas do Github</p>
-<p>Setup Cypress</p>
-<p>Inicie um novo projeto Node.js:</p>
+<ul>
+<li>registrar um novo usuário no site</li>
+<li>os dados do usuário devem ser diferentes para cada teste</li>
+<li>adicionar asserções aos testes</li>
+<li>gerar relatórios usando mochawesome</li>
+<li>crie um novo repositório para o Github</li>
+<li>descrever o projeto em um arquivo README</li>
+<li>executar testes no Github Actions</li>
+<li>relatório de implantação em páginas do Github</li>
+<li>Setup Cypress</li>
+<li>Inicie um novo projeto Node.js:</li>
+</ul>
 
 npm init -y
 Instale o Cypress como dependência dev:
