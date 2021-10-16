@@ -66,6 +66,7 @@
      <p>" cy: run " : " npx cypress run "</p>
    }
    }
-
-   <iframe src="https://giphy.com/embed/uxcBy0kSMPVrRkSTXR" width="480" height="228" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/uxcBy0kSMPVrRkSTXR">via GIPHY</a></p>
+<hr>
+  
+<video src="Gif/Gif.mp4"></video>
 
