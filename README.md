@@ -13,6 +13,7 @@
 <li>executar testes no Github Actions</li>
 <li>relatório de implantação em páginas do Github</li>
 </ul>
+<hr>
 
 <h3>Setup Cypress</h3>
 <h4>Inicie um novo projeto Node.js:</h4> 
@@ -21,6 +22,7 @@
 		npm init -y
 	</li>
 </ul>
+<hr>
 
 <h4>Instale o Cypress como dependência dev:</h4>
   <ul>
@@ -28,6 +30,7 @@
 		npm install cypress -D
 	</li>
 </ul>
+<hr>
 
 <h4>Execute o Cypress:</h4>
   <ul>
@@ -53,6 +56,7 @@
 <hr>
 
 <h4>Crie um novo arquivo register.spec.js de teste para testar o processo de registro.</h4>
+<hr>
 
 <h4>Adicione comandos de scripts ao package.json:</h4>
 
