@@ -68,5 +68,5 @@
    }
 <hr>
   
-<video src="/Gif/Gif.mp4"></video>
+<img src="/Gif/Gif.gif"></img>
 
